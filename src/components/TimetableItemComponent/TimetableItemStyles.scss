@@ -1,0 +1,32 @@
+.table-item-container{
+    width: 10vw;
+    text-decoration: none;
+    font-weight: 100;
+    border: outset 2px ;
+
+    .lesson-name{
+        text-align: center;
+        font-size: larger;
+    }
+
+    .showhw{
+        overflow: hidden;
+        display: none;
+    }
+
+    .homework-container{
+        font-size:smaller;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3% 3% 0% 3%;
+
+        &:hover{
+            background-color: whitesmoke;
+        }
+
+        .due-date{
+            padding-left: 10%;
+        }
+    }
+}
